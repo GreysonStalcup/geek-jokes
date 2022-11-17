@@ -42,7 +42,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <h1 className={styles.title}>GeekJokes</h1>
+        <h1 className={styles.title}><span className={styles.geek_word}>Geek</span>Jokes</h1>
         <p className={styles.description}>Randomly Generated Jokes provided by a RESTful API</p>
         {alert && <div className={styles.alert}>
           {alert}
@@ -56,7 +56,7 @@ export default function Home() {
 
           
         </div>
-        <button onClick={handleNewJoke}>New Joke</button>
+        <button className={styles.new_joke_button} onClick={handleNewJoke}>New Joke</button>
 
         
         

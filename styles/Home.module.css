@@ -163,3 +163,27 @@
   border-radius: 10px;
   color: rgb(161, 255, 161);
 }
+.geek_word {
+  color:rgb(0, 181, 181)
+}
+.new_joke_button {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border: 1px solid rgb(0, 181, 181);
+  background:none;
+  border-radius: 10px;
+  cursor:pointer;
+}
+.new_joke_button:hover {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border: 1px solid rgb(0, 181, 181);
+  transition: 500ms;
+  background:rgb(0, 181, 181);
+  border-radius: 10px;
+  cursor:pointer;
+}
