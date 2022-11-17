@@ -62,7 +62,7 @@ export default function Home() {
         
       </main>
       <footer className={styles.footer}>
-        <Link href="https://github.com/GreysonStalcup/geek-jokes" target={"blank"}><AiFillGithub size={35} /></Link>
+        <Link href="https://github.com/GreysonStalcup/geek-jokes" target={"blank"}><AiFillGithub size={45} /></Link>
       </footer>  
     </div>
   )
