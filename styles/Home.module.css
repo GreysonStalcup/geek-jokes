@@ -113,6 +113,9 @@
     width: 100%;
     flex-direction: column;
   }
+  .main {
+    min-height: 80vh;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
