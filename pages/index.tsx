@@ -44,6 +44,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}><span className={styles.geek_word}>Geek</span>Jokes</h1>
         <p className={styles.description}>Randomly Generated Jokes provided by a RESTful API</p>
+        
         {alert && <div className={styles.alert}>
           {alert}
           </div>
@@ -59,8 +60,12 @@ export default function Home() {
         <button className={styles.new_joke_button} onClick={handleNewJoke}>New Joke</button>
 
         
+        <div className={styles.code}>
+          <p>GET request to: https://geek-jokes.vercel.app/api/joke</p>
+        </div>
         
       </main>
+      
       <footer className={styles.footer}>
         <Link href="https://github.com/GreysonStalcup/geek-jokes" target={"blank"}><AiFillGithub size={45} /></Link>
       </footer>  
